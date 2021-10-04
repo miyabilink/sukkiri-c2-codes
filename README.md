@@ -3,7 +3,7 @@
 C言語入門書籍『[スッキリわかるC言語入門 第2版](https://sukkiri.jp/books/sukkiri_c2)』（インプレス, 2021）の誌面掲載プログラムリスト集です。[LICENSE.txt](https://github.com/miyabilink/sukkiri-c2-codes/raw/main/LICENSE.txt) の条件に基づきご利用ください。  
 
 ## 配布用ZIPファイル
-研修や講義に便利な再配布用ZIPファイルは　→ 　🎁 [sukkiri-c-codes.zip](https://github.com/miyabilink/sukkiri-c2-codes/releases/latest/download/sukkiri-c2-codes.zip)
+研修や講義に便利な再配布用ZIPファイルは　→ 　🎁 [sukkiri-c2-codes.zip](https://github.com/miyabilink/sukkiri-c2-codes/releases/latest/download/sukkiri-c2-codes.zip)
 
 ## 不具合を発見した場合
 紙面に関係するものは、書籍奥付記載の出版社サポート窓口までお問い合わせください。
