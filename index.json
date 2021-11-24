@@ -1504,6 +1504,39 @@
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
+      },
+      {
+        "id": "hint_code1",
+        "label_header": "コード12-hint1",
+        "label": "Puzmon ヒントファイル1",
+        "sourceFiles": [
+          "puzmon1hint.c"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "hint_code2",
+        "label_header": "コード12-hint2",
+        "label": "Puzmon ヒントファイル2",
+        "sourceFiles": [
+          "puzmon2hint.c"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "hint_code3",
+        "label_header": "コード12-hint3",
+        "label": "Puzmon ヒントファイル3",
+        "sourceFiles": [
+          "puzmon3hint.c"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
       }
     ]
   },
