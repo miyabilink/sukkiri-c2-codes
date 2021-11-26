@@ -33,7 +33,7 @@
           "code0003.c"
         ],
         "isCompileError": true,
-        "isRuntimeError": null,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -270,8 +270,8 @@
         "sourceFiles": [
           "code0302.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -739,8 +739,8 @@
         "sourceFiles": [
           "code0604.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1092,8 +1092,8 @@
         "sourceFiles": [
           "code0811.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1186,8 +1186,8 @@
         "sourceFiles": [
           "code0903.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1492,14 +1492,14 @@
   },
   {
     "id": "chap12",
-    "label": "第12章 ",
+    "label": "第12章 パズルRPGの制作",
     "children": [
       {
         "id": "code12-01",
         "label_header": "コード12-1",
         "label": "Puzmon ひな型ソースファイル",
         "sourceFiles": [
-          "code1201.c"
+          "puzmon0.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1773,7 +1773,7 @@
     ]
   },
   {
-    "id": "chap015",
+    "id": "chap15",
     "label": "第15章 ツールによる効率化と安全なコード",
     "children": [
       {
@@ -1926,8 +1926,8 @@
         "sourceFiles": [
           "code1514.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1937,8 +1937,8 @@
         "sourceFiles": [
           "code1515.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -2093,110 +2093,110 @@
     "label": "付録D 補講",
     "children": [
       {
-        "id": "codeD01",
+        "id": "code0D-01",
         "label_header": "コードD-1",
         "label": "ビッドフラグの利用例",
         "sourceFiles": [
-          "codeD01.c"
+          "code0D01.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "codeD02",
+        "id": "code0D-02",
         "label_header": "コードD-2",
         "label": "関数の先頭アドレスを調べる",
         "sourceFiles": [
-          "codeD02.c"
+          "code0D02.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "codeD03",
+        "id": "code0D-03",
         "label_header": "コードD-3",
         "label": "先頭アドレスから関数を呼び出す",
         "sourceFiles": [
-          "codeD03.c"
+          "code0D03.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "codeD04",
+        "id": "code0D-04",
         "label_header": "コードD-4",
         "label": "現在時刻をtime関数で取得",
         "sourceFiles": [
-          "codeD04.c"
+          "code0D04.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "codeD05",
+        "id": "code0D-05",
         "label_header": "コードD-5",
         "label": "現在時刻をわかりやすく表示する",
         "sourceFiles": [
-          "codeD05.c"
+          "code0D05.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "codeD06",
+        "id": "code0D-06",
         "label_header": "コードD-6",
         "label": "staticで延命されたローカル変数",
         "sourceFiles": [
-          "codeD06.c"
+          "code0D06.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "codeD07",
+        "id": "code0D-07",
         "label_header": "コードD-7",
         "label": "staticで利用を制限した関数",
         "sourceFiles": [
-          "codeD07.c"
+          "code0D07.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "codeD08",
+        "id": "code0D-08",
         "label_header": "コードD-8",
         "label": "外部リンげーじを持つ変数を宣言",
         "sourceFiles": [
-          "codeD08.c"
+          "code0D08.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "codeD09",
+        "id": "code0D-09",
         "label_header": "コードD-9",
         "label": "別ファイルで定義された変数を利用",
         "sourceFiles": [
-          "codeD09.c"
+          "code0D09.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
       },
       {
-        "id": "codeD10",
+        "id": "code0D-10",
         "label_header": "コードD-10",
         "label": "インライン関数の利用",
         "sourceFiles": [
-          "codeD10.c"
+          "code0D10.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -2209,7 +2209,7 @@
     "label": "付録E クイックリファレンス",
     "children": [
       {
-        "id": "codeE",
+        "id": "code0E",
         "label_header": "付録E",
         "label": "empty.txt",
         "sourceFiles": [
@@ -2226,7 +2226,7 @@
     "label": "付録F パズルRPG制作のヒントと解答例",
     "children": [
       {
-        "id": "codeF01",
+        "id": "code0F-01",
         "label_header": "コードF-1",
         "label": "ヒント1",
         "sourceFiles": [
@@ -2237,7 +2237,7 @@
         "loadMessage": null
       },
       {
-        "id": "codeF02",
+        "id": "code0F-02",
         "label_header": "コードF-2",
         "label": "ヒント2",
         "sourceFiles": [
@@ -2248,7 +2248,7 @@
         "loadMessage": null
       },
       {
-        "id": "codeF03",
+        "id": "code0F-03",
         "label_header": "コードF-3",
         "label": "ヒント3",
         "sourceFiles": [
