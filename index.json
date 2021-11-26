@@ -1492,7 +1492,7 @@
   },
   {
     "id": "chap12",
-    "label": "第12章 ",
+    "label": "第12章 パズルRPGの制作",
     "children": [
       {
         "id": "code12-01",
@@ -2172,7 +2172,7 @@
       {
         "id": "codeD08",
         "label_header": "コードD-8",
-        "label": "外部リンげーじを持つ変数を宣言",
+        "label": "外部リンケージを持つ変数を宣言",
         "sourceFiles": [
           "codeD08.c"
         ],
