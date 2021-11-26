@@ -2038,7 +2038,7 @@
     ]
   },
   {
-    "id": "chap0A",
+    "id": "chapA",
     "label": "付録A 開発環境の準備",
     "children": [
       {
@@ -2055,7 +2055,7 @@
     ]
   },
   {
-    "id": "chap0B",
+    "id": "chapB",
     "label": "付録B エラー解決・虎の巻",
     "children": [
       {
@@ -2072,7 +2072,7 @@
     ]
   },
   {
-    "id": "chap0C",
+    "id": "chapC",
     "label": "付録C C言語標準と処理系",
     "children": [
       {
@@ -2089,11 +2089,11 @@
     ]
   },
   {
-    "id": "chap0D",
+    "id": "chapD",
     "label": "付録D 補講",
     "children": [
       {
-        "id": "code0D-01",
+        "id": "codeD-01",
         "label_header": "コードD-1",
         "label": "ビッドフラグの利用例",
         "sourceFiles": [
@@ -2104,7 +2104,7 @@
         "loadMessage": null
       },
       {
-        "id": "code0D-02",
+        "id": "codeD-02",
         "label_header": "コードD-2",
         "label": "関数の先頭アドレスを調べる",
         "sourceFiles": [
@@ -2115,7 +2115,7 @@
         "loadMessage": null
       },
       {
-        "id": "code0D-03",
+        "id": "codeD-03",
         "label_header": "コードD-3",
         "label": "先頭アドレスから関数を呼び出す",
         "sourceFiles": [
@@ -2126,7 +2126,7 @@
         "loadMessage": null
       },
       {
-        "id": "code0D-04",
+        "id": "codeD-04",
         "label_header": "コードD-4",
         "label": "現在時刻をtime関数で取得",
         "sourceFiles": [
@@ -2137,7 +2137,7 @@
         "loadMessage": null
       },
       {
-        "id": "code0D-05",
+        "id": "codeD-05",
         "label_header": "コードD-5",
         "label": "現在時刻をわかりやすく表示する",
         "sourceFiles": [
@@ -2148,7 +2148,7 @@
         "loadMessage": null
       },
       {
-        "id": "code0D-06",
+        "id": "codeD-06",
         "label_header": "コードD-6",
         "label": "staticで延命されたローカル変数",
         "sourceFiles": [
@@ -2159,7 +2159,7 @@
         "loadMessage": null
       },
       {
-        "id": "code0D-07",
+        "id": "codeD-07",
         "label_header": "コードD-7",
         "label": "staticで利用を制限した関数",
         "sourceFiles": [
@@ -2170,7 +2170,7 @@
         "loadMessage": null
       },
       {
-        "id": "code0D-08",
+        "id": "codeD-08",
         "label_header": "コードD-8",
         "label": "外部リンげーじを持つ変数を宣言",
         "sourceFiles": [
@@ -2181,7 +2181,7 @@
         "loadMessage": null
       },
       {
-        "id": "code0D-09",
+        "id": "codeD-09",
         "label_header": "コードD-9",
         "label": "別ファイルで定義された変数を利用",
         "sourceFiles": [
@@ -2192,7 +2192,7 @@
         "loadMessage": null
       },
       {
-        "id": "code0D-10",
+        "id": "codeD-10",
         "label_header": "コードD-10",
         "label": "インライン関数の利用",
         "sourceFiles": [
@@ -2205,7 +2205,7 @@
     ]
   },
   {
-    "id": "chap0E",
+    "id": "chapE",
     "label": "付録E クイックリファレンス",
     "children": [
       {
@@ -2222,40 +2222,40 @@
     ]
   },
   {
-    "id": "chap0F",
+    "id": "chapF",
     "label": "付録F パズルRPG制作のヒントと解答例",
     "children": [
       {
-        "id": "code0F-01",
+        "id": "codeF-01",
         "label_header": "コードF-1",
         "label": "ヒント1",
         "sourceFiles": [
           "puzmon1hint.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
-        "id": "code0F-02",
+        "id": "codeF-02",
         "label_header": "コードF-2",
         "label": "ヒント2",
         "sourceFiles": [
           "puzmon2hint.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
-        "id": "code0F-03",
+        "id": "codeF-03",
         "label_header": "コードF-3",
         "label": "ヒント3",
         "sourceFiles": [
           "puzmon3hint.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       }
     ]
