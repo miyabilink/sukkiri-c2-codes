@@ -1560,7 +1560,7 @@
         "label_header": "コード13-2",
         "label": "分割したソースファイル",
         "sourceFiles": [
-          "code1302.c"
+          "akagi.c", "misaki.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1604,7 +1604,7 @@
         "label_header": "コード13-6",
         "label": "二重インクルードを防止",
         "sourceFiles": [
-          "code1306.c"
+          "akagi.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1615,7 +1615,7 @@
         "label_header": "コード13-7",
         "label": "mksaki.cとakagi.cの再掲",
         "sourceFiles": [
-          "code1307.c"
+          "misaki.c", "akagi.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1626,7 +1626,7 @@
         "label_header": "コード13-8",
         "label": "ヘッダファイルを用いたプログラム分割",
         "sourceFiles": [
-          "code1308.c"
+          "akagi.h", "akagi.c", "misaki.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1648,7 +1648,7 @@
         "label_header": "",
         "label": "練習13-3",
         "sourceFiles": [
-          "Quiz1303.c"
+          "sub.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1659,7 +1659,7 @@
         "label_header": "",
         "label": "練習13-2の解答",
         "sourceFiles": [
-          "QuizAns1302.c"
+          "main.c", "sub.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1670,7 +1670,7 @@
         "label_header": "",
         "label": "練習13-3の解答",
         "sourceFiles": [
-          "QuizAns1303.c"
+          "sub.h", "sub.c", "main.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1781,10 +1781,10 @@
         "label_header": "コード15-1",
         "label": "akagi.hの再掲",
         "sourceFiles": [
-          "code1501.c"
+          "akagi.c"
         ],
         "isCompileError": false,
-        "isRuntimeError": false,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1792,7 +1792,7 @@
         "label_header": "コード15-2",
         "label": "akagi.cの再掲",
         "sourceFiles": [
-          "code1502.c"
+          "akagi.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1803,7 +1803,7 @@
         "label_header": "コード15-3",
         "label": "misaki.cの再掲",
         "sourceFiles": [
-          "code1503.c"
+          "misaki.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1814,10 +1814,10 @@
         "label_header": "コード15-4",
         "label": "シェルスクリプトの例",
         "sourceFiles": [
-          "code1504.c"
+          "sample.sh"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1825,10 +1825,10 @@
         "label_header": "コード15-5",
         "label": "シェルスクリプトによるビルド",
         "sourceFiles": [
-          "code1505.c"
+          "build.sh"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1836,10 +1836,10 @@
         "label_header": "コード15-6",
         "label": "shebangを追加",
         "sourceFiles": [
-          "code1506.c"
+          "build.sh"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1847,10 +1847,10 @@
         "label_header": "コード15-7",
         "label": "シンプルなmakeの例",
         "sourceFiles": [
-          "code1507.c"
+          "Makefile"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1858,10 +1858,10 @@
         "label_header": "コード15-8",
         "label": "cleanを定義したMakefile",
         "sourceFiles": [
-          "code1508.c"
+          "Makefile"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1869,10 +1869,10 @@
         "label_header": "コード15-9",
         "label": "マクロを利用したMakefile",
         "sourceFiles": [
-          "code1509.c"
+          "Makefile"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1880,10 +1880,10 @@
         "label_header": "コード15-10",
         "label": "内部マクロを利用したMakefile",
         "sourceFiles": [
-          "code1510.c"
+          "Makefile"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1891,10 +1891,10 @@
         "label_header": "コード15-11",
         "label": "サフィックスルールを利用したMakefile",
         "sourceFiles": [
-          "code1511.c"
+          "Makefile"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1935,7 +1935,7 @@
         "label_header": "コード15-15",
         "label": "単体テストを組み込んだMakefileの例",
         "sourceFiles": [
-          "code1515.c"
+          "Makefile"
         ],
         "isCompileError": true,
         "isRuntimeError": true,
@@ -1946,10 +1946,10 @@
         "label_header": "",
         "label": "練習15-1の解答",
         "sourceFiles": [
-          "QuizAns1501.c"
+          "build.sh"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1957,10 +1957,10 @@
         "label_header": "",
         "label": "練習15-2の解答",
         "sourceFiles": [
-          "QuizAns1502.c"
+          "Makefile"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1968,10 +1968,10 @@
         "label_header": "",
         "label": "練習15-3の解答",
         "sourceFiles": [
-          "QuizAns1503.c"
+          "Makefile", "sub.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -1979,10 +1979,10 @@
         "label_header": "",
         "label": "練習15-4の解答",
         "sourceFiles": [
-          "QuizAns1504.c"
+          "Makefile"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       }
     ]
@@ -1998,8 +1998,8 @@
         "sourceFiles": [
           "code1601.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -2009,8 +2009,8 @@
         "sourceFiles": [
           "code1602.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -2020,8 +2020,8 @@
         "sourceFiles": [
           "code1603.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       },
       {
@@ -2031,8 +2031,8 @@
         "sourceFiles": [
           "code1604.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
+        "isCompileError": true,
+        "isRuntimeError": true,
         "loadMessage": null
       }
     ]
