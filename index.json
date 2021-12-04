@@ -1553,7 +1553,7 @@
         ],
         "isCompileError": false,
         "isRuntimeError": false,
-        "loadMessage": null
+        "loadMessage": "dokoCではプリプロセッサ出力はできません"
       },
       {
         "id": "code13-02",
@@ -1562,9 +1562,9 @@
         "sourceFiles": [
           "akagi.c", "misaki.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
+        "isCompileError": true,
+        "isRuntimeError": true,
+        "loadMessage": "dokoCでは両ファイルをリンクしようとしてしまうため、エラーとなります"
       },
       {
         "id": "code13-03",
@@ -1617,9 +1617,9 @@
         "sourceFiles": [
           "misaki.c", "akagi.c"
         ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
+        "isCompileError": true,
+        "isRuntimeError": true,
+        "loadMessage": "dokoCでは両ファイルをリンクしようとしてしまうため、エラーとなります"
       },
       {
         "id": "code13-08",
@@ -2038,57 +2038,6 @@
     ]
   },
   {
-    "id": "chapA",
-    "label": "付録A 開発環境の準備",
-    "children": [
-      {
-        "id": "codeA",
-        "label_header": "付録A",
-        "label": "empty.txt",
-        "sourceFiles": [
-          "empty.txt"
-        ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
-      }
-    ]
-  },
-  {
-    "id": "chapB",
-    "label": "付録B エラー解決・虎の巻",
-    "children": [
-      {
-        "id": "codeB",
-        "label_header": "付録B",
-        "label": "empty.txt",
-        "sourceFiles": [
-          "empty.txt"
-        ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
-      }
-    ]
-  },
-  {
-    "id": "chapC",
-    "label": "付録C C言語標準と処理系",
-    "children": [
-      {
-        "id": "codeC",
-        "label_header": "付録C",
-        "label": "empty.txt",
-        "sourceFiles": [
-          "empty.txt"
-        ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
-      }
-    ]
-  },
-  {
     "id": "chapD",
     "label": "付録D 補講",
     "children": [
@@ -2197,23 +2146,6 @@
         "label": "インライン関数の利用",
         "sourceFiles": [
           "code0D10.c"
-        ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
-      }
-    ]
-  },
-  {
-    "id": "chapE",
-    "label": "付録E クイックリファレンス",
-    "children": [
-      {
-        "id": "code0E",
-        "label_header": "付録E",
-        "label": "empty.txt",
-        "sourceFiles": [
-          "empty.txt"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
