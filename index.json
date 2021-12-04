@@ -1749,7 +1749,7 @@
         "loadMessage": null
       },
       {
-        "id": "quizans014-01",
+        "id": "quizans14-01",
         "label_header": "",
         "label": "練習14-1の解答",
         "sourceFiles": [
@@ -1781,7 +1781,7 @@
         "label_header": "コード15-1",
         "label": "akagi.hの再掲",
         "sourceFiles": [
-          "akagi.c"
+          "akagi.h"
         ],
         "isCompileError": false,
         "isRuntimeError": true,
@@ -1942,7 +1942,7 @@
         "loadMessage": null
       },
       {
-        "id": "quizans015-01",
+        "id": "quizans15-01",
         "label_header": "",
         "label": "練習15-1の解答",
         "sourceFiles": [
