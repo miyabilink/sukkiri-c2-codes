@@ -733,6 +733,17 @@
         "loadMessage": null
       },
       {
+        "id": "quiz06-05",
+        "label_header": "",
+        "label": "練習6-5",
+        "sourceFiles": [
+          "Quiz0605.c"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
         "id": "quizans06-02",
         "label_header": "",
         "label": "練習6-2の解答",
