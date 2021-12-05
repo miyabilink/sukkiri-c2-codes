@@ -418,28 +418,6 @@
         "loadMessage": null
       },
       {
-        "id": "quiz03-03",
-        "label_header": "",
-        "label": "練習3-3",
-        "sourceFiles": [
-          "Quiz0303.c"
-        ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "quiz03-04",
-        "label_header": "",
-        "label": "練習3-4",
-        "sourceFiles": [
-          "Quiz0304.c"
-        ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
         "id": "quizans03-03",
         "label_header": "",
         "label": "練習3-3の解答",
@@ -528,6 +506,17 @@
         "label": "練習4-3",
         "sourceFiles": [
           "Quiz0403.c"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "quizans04-03",
+        "label_header": "",
+        "label": "練習4-3の解答",
+        "sourceFiles": [
+          "QuizAns0403.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
@@ -1087,7 +1076,7 @@
       },
       {
         "id": "code08-11",
-        "label_header": "コード8-1",
+        "label_header": "コード8-11",
         "label": "引数や戻り値は不要？（エラー）",
         "sourceFiles": [
           "code0811.c"
@@ -2121,7 +2110,7 @@
       {
         "id": "codeD-08",
         "label_header": "コードD-8",
-        "label": "外部リンげーじを持つ変数を宣言",
+        "label": "外部リンケージを持つ変数を宣言",
         "sourceFiles": [
           "code0D08.c"
         ],
