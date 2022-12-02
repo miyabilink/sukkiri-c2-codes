@@ -11,7 +11,7 @@ pipelines:
              - git checkout main
              - git pull
              - git merge origin/main
-             - git rm -f bitbucket-pipelines.yaml
+             - git rm -f bitbucket-pipelines.yml
              - git commit -m “不要なファイル類の削除”
              - git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Tatsunori KAITO'; GIT_AUTHOR_EMAIL='kaito@miyabilink.jp'; GIT_COMMITTER_NAME='Tatsunori KAITO'; GIT_COMMITTER_EMAIL='kaito@miyabilink.jp';" --tag-name-filter cat -- --all
              - git push sync --tags
