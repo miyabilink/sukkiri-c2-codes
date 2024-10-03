@@ -2038,6 +2038,23 @@
     ]
   },
   {
+    "id": "chapB",
+    "label": "付録B エラー解決・虎の巻",
+    "children": [
+      {
+        "id": "codeB-01",
+        "label_header": "コードB-1",
+        "label": "ゼロで割り算をするプログラム（エラー）",
+        "sourceFiles": [
+          "code0B01.c"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": true,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
     "id": "chapD",
     "label": "付録D 補講",
     "children": [
