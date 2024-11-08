@@ -1492,7 +1492,7 @@
   },
   {
     "id": "chap12",
-    "label": "第12章 パズルRPGの制作",
+    "label": "第12章 パズルRPGの製作",
     "children": [
       {
         "id": "code12-01",
@@ -1500,39 +1500,6 @@
         "label": "Puzmon ひな型ソースファイル",
         "sourceFiles": [
           "puzmon0.c"
-        ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "hint_code1",
-        "label_header": "コード12-hint1",
-        "label": "Puzmon ヒントファイル1",
-        "sourceFiles": [
-          "puzmon1hint.c"
-        ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "hint_code2",
-        "label_header": "コード12-hint2",
-        "label": "Puzmon ヒントファイル2",
-        "sourceFiles": [
-          "puzmon2hint.c"
-        ],
-        "isCompileError": false,
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "hint_code3",
-        "label_header": "コード12-hint3",
-        "label": "Puzmon ヒントファイル3",
-        "sourceFiles": [
-          "puzmon3hint.c"
         ],
         "isCompileError": false,
         "isRuntimeError": false,
